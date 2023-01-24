@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Mvc.Razor.Compilation;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/Views/TimeClockUI", () => "");
 
 app.Run();

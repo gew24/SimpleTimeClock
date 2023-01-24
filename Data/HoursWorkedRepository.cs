@@ -23,7 +23,7 @@ public class HoursWorkedRepository : IRepository<HoursWorked>
         return this._repository.GetAll();
     }
 
-    public List<HoursWorked> Get(Guid id)
+    public HoursWorked Get(Guid id)
     {
         return this._repository.Get(id);
     }
